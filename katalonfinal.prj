@@ -4,5 +4,5 @@
    <name>katalonfinal</name>
    <tag></tag>
    <UUID>8bd09b3c-9538-4525-882e-4220238f36e8</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
