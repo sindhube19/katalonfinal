@@ -4,8 +4,8 @@
    <name>New Test Suite 3</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-10T21:11:19</lastRun>
-   <mailRecipient>sindhuja.e@mstsolutions.com;</mailRecipient>
+   <lastRun>2018-07-11T10:44:08</lastRun>
+   <mailRecipient>sindhube19.data@gmail.com;</mailRecipient>
    <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

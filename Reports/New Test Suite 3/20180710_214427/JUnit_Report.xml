@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite 3" time="36" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite 3" tests="1" failures="0" errors="0" time="36" timestamp="2018-07-10 21:44:29" hostname="MSTEMP194 - MSTSYS0194" id="Test Suites/New Test Suite 3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MSTEMP194\\git\\katalonfinal\\Reports\\New Test Suite 3\\20180710_214427"/>
+         <property name="logFiles" value="C:\\Users\\MSTEMP194\\git\\katalonfinal\\Reports\\New Test Suite 3\\20180710_214427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MSTEMP194 - MSTSYS0194"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.225.33"/>
+         <property name="sessionId" value="fb7d90b0d811f7e503e432aa7326d95d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/testcase1" classname="Test Cases/testcase1" status="PASSED">
+         <system-out><![CDATA[2018-07-10 21:44:30 - [TEST_CASE][PASSED] - Test Cases/testcase1: Test Cases/testcase1
+
+2018-07-10 21:44:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 21:44:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 21:44:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://login.salesforce.com/' successfully
+
+2018-07-10 21:44:39 - [MESSAGE][PASSED] - Navigate to 'https://login.salesforce.com/' successfully
+
+2018-07-10 21:44:39 - [TEST_STEP][PASSED] - setText: Text 'sindhuja.e@mstsolutions.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-07-10 21:44:39 - [MESSAGE][PASSED] - Text 'sindhuja.e@mstsolutions.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-07-10 21:44:39 - [TEST_STEP][PASSED] - setText: Text 'S!ndhuja1219' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-07-10 21:44:39 - [MESSAGE][PASSED] - Text 'S!ndhuja1219' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-07-10 21:44:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-07-10 21:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-07-10 21:44:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home Page  Salesforce - Develo/a_Leads' is clicked on
+
+2018-07-10 21:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page  Salesforce - Develo/a_Leads' is clicked on
+
+2018-07-10 21:44:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' is clicked on
+
+2018-07-10 21:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' is clicked on
+
+2018-07-10 21:44:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Devel/input_new' is clicked on
+
+2018-07-10 21:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Devel/input_new' is clicked on
+
+2018-07-10 21:45:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_New Lead Select Lead Record Ty/input_save' is clicked on
+
+2018-07-10 21:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Lead Select Lead Record Ty/input_save' is clicked on
+
+2018-07-10 21:45:02 - [TEST_STEP][PASSED] - setText: Text 'sai' is set on object 'Object Repository/Page_Lead Edit New Lead  Salesforce/input_name_lastlea2'
+
+2018-07-10 21:45:03 - [MESSAGE][PASSED] - Text 'sai' is set on object 'Object Repository/Page_Lead Edit New Lead  Salesforce/input_name_lastlea2'
+
+2018-07-10 21:45:03 - [TEST_STEP][PASSED] - setText: Text 'ram' is set on object 'Object Repository/Page_Lead Edit New Lead  Salesforce/input_lea3'
+
+2018-07-10 21:45:04 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/Page_Lead Edit New Lead  Salesforce/input_lea3'
+
+2018-07-10 21:45:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lead Edit New Lead  Salesforce/input_save' is clicked on
+
+2018-07-10 21:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lead Edit New Lead  Salesforce/input_save' is clicked on
+
+2018-07-10 21:45:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 21:45:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 21:44:29 - [TEST_SUITE][PASSED] - New Test Suite 3: Test Cases/testcase1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
