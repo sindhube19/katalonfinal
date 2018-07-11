@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite 2" time="57" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite 2" tests="0" failures="1" errors="0" time="57" timestamp="2018-07-10 21:05:10" hostname="MSTEMP194 - MSTSYS0194" id="Test Suites/New Test Suite 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MSTEMP194\\git\\katalonfinal\\Reports\\New Test Suite 2\\20180710_210508"/>
+         <property name="logFiles" value="C:\\Users\\MSTEMP194\\git\\katalonfinal\\Reports\\New Test Suite 2\\20180710_210508\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\MSTEMP194\\git\\katalonfinal\\Reports\\New Test Suite 2\\20180710_210508\\1531236967005.png"/>
+         <property name="hostName" value="MSTEMP194 - MSTSYS0194"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.225.33"/>
+         <property name="sessionId" value="bc4a6306fff61d3a8c0f755e3c9c4f05"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/testcase1" classname="Test Cases/testcase1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' located by 'By.xpath: //a[@id = 'tryLexDialogX' and @title = 'Close' and @href = 'javascript:void(0)' and (text() = 'Close' or . = 'Close')]' not found)"/>
+         <system-out><![CDATA[2018-07-10 21:05:11 - [TEST_CASE][FAILED] - Test Cases/testcase1: Test Cases/testcase1 FAILED because (of) Unable to click on object 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' located by 'By.xpath: //a[@id = 'tryLexDialogX' and @title = 'Close' and @href = 'javascript:void(0)' and (text() = 'Close' or . = 'Close')]' not found)
+
+2018-07-10 21:05:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 21:05:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 21:05:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://login.salesforce.com/' successfully
+
+2018-07-10 21:05:19 - [MESSAGE][PASSED] - Navigate to 'https://login.salesforce.com/' successfully
+
+2018-07-10 21:05:19 - [TEST_STEP][PASSED] - setText: Text 'sindhuja.e@mstsolutions.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-07-10 21:05:20 - [MESSAGE][PASSED] - Text 'sindhuja.e@mstsolutions.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-07-10 21:05:20 - [TEST_STEP][PASSED] - setText: Text 'S!ndhuja1219' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-07-10 21:05:20 - [MESSAGE][PASSED] - Text 'S!ndhuja1219' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-07-10 21:05:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-07-10 21:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-07-10 21:05:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home Page  Salesforce - Develo/a_Leads' is clicked on
+
+2018-07-10 21:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page  Salesforce - Develo/a_Leads' is clicked on
+
+2018-07-10 21:05:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' located by 'By.xpath: //a[@id = 'tryLexDialogX' and @title = 'Close' and @href = 'javascript:void(0)' and (text() = 'Close' or . = 'Close')]' not found)
+
+2018-07-10 21:06:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' located by 'By.xpath: //a[@id = 'tryLexDialogX' and @title = 'Close' and @href = 'javascript:void(0)' and (text() = 'Close' or . = 'Close')]' not found)
+[[ATTACHMENT|C:\\Users\\MSTEMP194\\git\\katalonfinal\\Reports\\New Test Suite 2\\20180710_210508\\1531236967005.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-10 21:05:11 - [TEST_CASE][FAILED] - Test Cases/testcase1: Test Cases/testcase1 FAILED because (of) Unable to click on object 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' located by 'By.xpath: //a[@id = 'tryLexDialogX' and @title = 'Close' and @href = 'javascript:void(0)' and (text() = 'Close' or . = 'Close')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 21:05:10 - [TEST_SUITE][FAILED] - New Test Suite 2: Test Cases/testcase1 FAILED because (of) Unable to click on object 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' located by 'By.xpath: //a[@id = 'tryLexDialogX' and @title = 'Close' and @href = 'javascript:void(0)' and (text() = 'Close' or . = 'Close')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-10 21:05:10 - [TEST_SUITE][FAILED] - New Test Suite 2: Test Cases/testcase1 FAILED because (of) Unable to click on object 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Leads Home  Salesforce - Devel/a_Close' located by 'By.xpath: //a[@id = 'tryLexDialogX' and @title = 'Close' and @href = 'javascript:void(0)' and (text() = 'Close' or . = 'Close')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
